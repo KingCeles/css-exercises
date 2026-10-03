@@ -1,1 +1,18 @@
 /* Add CSS Styling */
+
+.avatar.proportioned{
+    width: 300px;
+}
+
+.avatar.distorted{
+    width: 200px;
+    height: 400px;
+}
+
+/* .avatar{
+    width: 1000px;
+} 
+    
+So the key of chaining is we want the element to have specific feature, but dont overlap, so chaining is like only the element got both avatar and proportioned, then it 
+will have the style described, it is AND, while group selector is OR
+*/ 
